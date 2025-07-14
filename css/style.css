@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Caprasimo&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+:root{--theme1:rgb(165, 62, 76); --theme2:#EAB543;  --black:#2C3447; --light:#ede0d6;}
+body{color:var(--black);}
+*{font-family: "Libre Baskerville", serif;}
+h1,h2,h3,h4,h5,.logo {font-family: "Archivo Black", sans-serif !important;}
+.tag{ font-family: "Cinzel", serif !important;}
+
+.bg1{background-color: var(--theme1); color:white;}
+.bg2{background-color: var(--theme2); color:white;}
+.bg3{background-color:var(--light);}
+
+.fg1{color:var(--theme1);}
+.fg2{color:var(--theme2);}
+
+progress {accent-color: rgb(99, 170, 99); }
+
+.text-justify{text-align:justify;}
+a{text-decoration: none;}
+
+.footer-bg{background-image: url(../assets/images/urbantourism.jpeg); background-position: center;}
+.footer-layer{background-color: rgba(5, 5, 5, 0.9);}
+
+.inc {list-style: url(../assets/images/check-mark.png);}
+.exc {list-style: url(../assets/images/cross2.png);}
+
+.header-bg{background-color: rgb(19, 16, 16);}
+
+.banner{background-image: url(../assets/images/banner.jpg); background-size: 100%  ; background-position: center;}
+.banner div{background-color:rgba(165, 62, 76,0.8); padding-block: 90px ; color: white; text-align: center;}
+.banner a{color: white;}
+
+
+
